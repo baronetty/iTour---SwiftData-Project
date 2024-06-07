@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31A19B22C131739005EC042 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A19B12C131739005EC042 /* EditDestinationView.swift */; };
 		B38C98DB2C11D2EB00D6232B /* iTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C98DA2C11D2EB00D6232B /* iTourApp.swift */; };
 		B38C98DD2C11D2EB00D6232B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C98DC2C11D2EB00D6232B /* ContentView.swift */; };
 		B38C98DF2C11D2EC00D6232B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C98DE2C11D2EC00D6232B /* Assets.xcassets */; };
 		B38C98E22C11D2EC00D6232B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C98E12C11D2EC00D6232B /* Preview Assets.xcassets */; };
+		B38C98E92C11D4F100D6232B /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C98E82C11D4F100D6232B /* Destination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31A19B12C131739005EC042 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 		B38C98D72C11D2EB00D6232B /* iTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38C98DA2C11D2EB00D6232B /* iTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTourApp.swift; sourceTree = "<group>"; };
 		B38C98DC2C11D2EB00D6232B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B38C98DE2C11D2EC00D6232B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38C98E12C11D2EC00D6232B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B38C98E82C11D4F100D6232B /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B38C98DA2C11D2EB00D6232B /* iTourApp.swift */,
 				B38C98DC2C11D2EB00D6232B /* ContentView.swift */,
+				B31A19B12C131739005EC042 /* EditDestinationView.swift */,
+				B38C98E82C11D4F100D6232B /* Destination.swift */,
 				B38C98DE2C11D2EC00D6232B /* Assets.xcassets */,
 				B38C98E02C11D2EC00D6232B /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				B38C98DD2C11D2EB00D6232B /* ContentView.swift in Sources */,
 				B38C98DB2C11D2EB00D6232B /* iTourApp.swift in Sources */,
+				B38C98E92C11D4F100D6232B /* Destination.swift in Sources */,
+				B31A19B22C131739005EC042 /* EditDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
