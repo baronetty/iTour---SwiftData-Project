@@ -13,6 +13,8 @@
 		B38C98DF2C11D2EC00D6232B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C98DE2C11D2EC00D6232B /* Assets.xcassets */; };
 		B38C98E22C11D2EC00D6232B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38C98E12C11D2EC00D6232B /* Preview Assets.xcassets */; };
 		B38C98E92C11D4F100D6232B /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38C98E82C11D4F100D6232B /* Destination.swift */; };
+		B393F2CF2C19A3B2001D2660 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393F2CE2C19A3B2001D2660 /* DestinationListingView.swift */; };
+		B393F2D12C19B24C001D2660 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393F2D02C19B24B001D2660 /* Sight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B38C98DE2C11D2EC00D6232B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38C98E12C11D2EC00D6232B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B38C98E82C11D4F100D6232B /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		B393F2CE2C19A3B2001D2660 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		B393F2D02C19B24B001D2660 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				B38C98DA2C11D2EB00D6232B /* iTourApp.swift */,
 				B38C98DC2C11D2EB00D6232B /* ContentView.swift */,
+				B393F2CE2C19A3B2001D2660 /* DestinationListingView.swift */,
+				B393F2D02C19B24B001D2660 /* Sight.swift */,
 				B31A19B12C131739005EC042 /* EditDestinationView.swift */,
 				B38C98E82C11D4F100D6232B /* Destination.swift */,
 				B38C98DE2C11D2EC00D6232B /* Assets.xcassets */,
@@ -146,7 +152,9 @@
 				B38C98DD2C11D2EB00D6232B /* ContentView.swift in Sources */,
 				B38C98DB2C11D2EB00D6232B /* iTourApp.swift in Sources */,
 				B38C98E92C11D4F100D6232B /* Destination.swift in Sources */,
+				B393F2D12C19B24C001D2660 /* Sight.swift in Sources */,
 				B31A19B22C131739005EC042 /* EditDestinationView.swift in Sources */,
+				B393F2CF2C19A3B2001D2660 /* DestinationListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
